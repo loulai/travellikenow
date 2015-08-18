@@ -1,6 +1,6 @@
-![](README_images/img/travel.jpg)
+Travel, like, now
+====================
 
-![alt](README_images/img/travel.jpg)
-
+Work in progress!
 
 ![go there](public/img/travel.jpg)
