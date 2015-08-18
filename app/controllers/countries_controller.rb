@@ -3,14 +3,25 @@ class CountriesController < ApplicationController
 		@countries = Country.all
 	end
 
+	def destroy
+		@country = Country.find(params[:id])
+		@country.destroy
+
+		redirect_to countries_path
+	end
+
 	def new
 	end
 
 	def create
 		@country = Country.new(country_params)
 
-		@country.save
-		redirect_to @country
+		if @country.save
+			redirect_to @article
+		else
+			render 'new'
+		end
+	
 	end
 
 	def show

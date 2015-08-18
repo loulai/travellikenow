@@ -16,6 +16,7 @@ So... get on your way!<br/>
   <% @countries.each do |country| %>
     <tr>
       <td><%= country.title %></td>
+      <td><%= link_to 'Delete', country_path(country), method: :delete, data: {confirm: 'Are you sure?' } %></td>
     </tr>
   <% end %>
 </table>
