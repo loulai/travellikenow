@@ -1,1 +1,1 @@
-![](public/img/travel.jpg)
+![](public/travel.jpg)
