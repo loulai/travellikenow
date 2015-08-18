@@ -1,0 +1,21 @@
+<h1>Oh, The Places You'll Go!</h1>
+
+<h4>
+You're off to Great Places!<br/>
+Today is your day!<br/>
+Your mountain is waiting,<br/>
+So... get on your way!<br/>
+- Dr Seuss
+</h4>
+ 
+<table>
+  <tr>
+    <th>Title</th>
+  </tr>
+ 
+  <% @countries.each do |country| %>
+    <tr>
+      <td><%= country.title %></td>
+    </tr>
+  <% end %>
+</table>
