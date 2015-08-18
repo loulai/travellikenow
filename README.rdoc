@@ -1,1 +1,1 @@
-![](public/travel.jpg)
+![](README_images/travel.jpg)
