@@ -27,6 +27,8 @@ gem 'devise'
 
 gem 'icalendar' #not in use at the mo
 
+gem 'event_calendar', :require => 'event_calendar'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
