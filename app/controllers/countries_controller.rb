@@ -1,6 +1,6 @@
 class CountriesController < ApplicationController
 	def index
-		@countries = Country.all
+		@countries = Country.all.each.sort_by {|c| c.title.downcase } #sorts all countries alphabetically
 	end
 
 	def destroy
