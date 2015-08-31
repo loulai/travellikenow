@@ -18,7 +18,7 @@ class CountriesController < ApplicationController
 		@country = Country.new(country_params)
 
 		if @country.save
-			redirect_to @article
+			redirect_to @country
 		else
 			render 'new'
 		end
