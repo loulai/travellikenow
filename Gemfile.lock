@@ -60,15 +60,9 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     erubis (2.7.0)
-    event_calendar (0.0.2)
-      activesupport
-      haml
-      markaby
     execjs (2.6.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
-    haml (4.0.7)
-      tilt
     i18n (0.7.0)
     icalendar (2.3.0)
     jbuilder (2.3.1)
@@ -83,8 +77,6 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    markaby (0.8.0)
-      builder
     mime-types (2.6.1)
     mini_portile (0.6.2)
     minitest (5.8.0)
@@ -166,7 +158,6 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   devise
-  event_calendar
   icalendar
   jbuilder (~> 2.0)
   jquery-rails
