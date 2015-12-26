@@ -1,9 +1,15 @@
 <p>
   <strong>New Country:</strong>
   <%= @country.title %>
+  <%= @country.id %>
+  <% @country.places.each do |place| %>
+  
+  <%end%>
 </p>
  
 <h5>Huzzah is a new country</h5>
 <%= link_to 'All Countries', countries_path %>
 <br/>
-<%= link_to 'New Country', new_country_path %>
+<%= link_to 'New Country Place', new_country_place_path(@country.id) %>
+<br/>
+<%= link_to 'New Country', new_country_path(@country.id) %> 

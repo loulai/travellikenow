@@ -3,10 +3,11 @@ class PlacesController < ApplicationController
 	end
 
 	def create
+		@country = Country.find(params[:country_id])
 		@place = Place.new(place_params)
 
 		@place.save
-		redirect_to @place
+		redirect_to country_path(@country)
 	end
 
 	def show
